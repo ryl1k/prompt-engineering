@@ -52,6 +52,9 @@ As format pressure increases:
 The model chooses:
 safe, boring, predictable text.
 
+Not because it is stupid,
+but because it is minimizing risk.
+
 ## Format pressure diagram
 
 ```mermaid
@@ -61,9 +64,6 @@ flowchart TD
   B --> D[Language drift risk]
   B --> E[Memory usage drops]
 ```
-
-Not because it is stupid,
-but because it is minimizing risk.
 
 ---
 
