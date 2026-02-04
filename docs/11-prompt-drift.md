@@ -87,6 +87,17 @@ In deployments.
 Each model update shortens
 the original design assumptions.
 
+## Drift cycle diagram
+
+```mermaid
+stateDiagram-v2
+  [*] --> Working
+  Working --> SlightDrift
+  SlightDrift --> Broken
+  Broken --> Rewrite
+  Rewrite --> Working
+```
+
 ---
 
 ## Practical mindset

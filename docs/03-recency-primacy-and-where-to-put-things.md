@@ -21,6 +21,15 @@ Everything in the middle is weaker.
 Not ignored.  
 Just statistically diluted.
 
+## Recency and primacy diagram
+
+```mermaid
+flowchart TD
+  A[Start of prompt] --> B[Identity / Tone]
+  C[Middle of prompt] --> D[Weak influence]
+  E[End of prompt] --> F[Behavior / Decision]
+```
+
 ---
 
 ## Why "middle of the prompt" is a graveyard

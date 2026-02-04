@@ -104,6 +104,16 @@ And control requires:
 
 None of which live in the prompt.
 
+## Boundary diagram
+
+```mermaid
+flowchart TD
+  A[Prompt-only system] --> B[Increasing constraints]
+  B --> C{Need guarantees?}
+  C -->|No| D[Keep prompt]
+  C -->|Yes| E[Add control layer]
+```
+
 ---
 
 ## The uncomfortable truth
