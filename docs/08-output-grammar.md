@@ -23,12 +23,12 @@ They are not trained on:
 your invented output grammar.
 
 So every time you require:
-
+```
 [[image=1]]  
 <END>  
 |||  
 { "key": "value" }
-
+```
 You are forcing the model to:
 speak a language that barely exists in its training data.
 
@@ -77,10 +77,12 @@ It is a structural conflict.
 
 Each new marker:
 
+```
 [[image=1]]  
 <quote>  
 ::section::  
 @@@
+```
 
 is a new rule.
 
